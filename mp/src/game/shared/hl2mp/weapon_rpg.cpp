@@ -34,12 +34,12 @@
 	#include "hl2_shareddefs.h"
 #endif
 
-#include "debugoverlay_shared.h"
+// #include "debugoverlay_shared.h"
 
 // memdbgon must be the last include file in a .cpp file!!!
 #include "tier0/memdbgon.h"
 
-#define	RPG_SPEED	1500
+#define	RPG_SPEED	1200
 
 #ifndef CLIENT_DLL
 const char *g_pLaserDotThink = "LaserThinkContext";

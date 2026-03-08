@@ -213,7 +213,7 @@ void CWeaponPistol::PrimaryAttack( void )
 	BaseClass::PrimaryAttack();
 
 	// Add an accuracy penalty which can move past our maximum penalty time if we're really spastic
-	m_flAccuracyPenalty += PISTOL_ACCURACY_SHOT_PENALTY_TIME;
+	// m_flAccuracyPenalty += PISTOL_ACCURACY_SHOT_PENALTY_TIME;
 }
 
 //-----------------------------------------------------------------------------
